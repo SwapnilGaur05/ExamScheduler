@@ -1,0 +1,9 @@
+CREATE DATABASE exam_scheduler;
+USE exam_scheduler;
+
+CREATE TABLE exams (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    subject VARCHAR(100),
+    exam_date DATE,
+    exam_time TIME
+);
